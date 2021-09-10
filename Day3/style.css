@@ -1,0 +1,36 @@
+h1 {
+    border-bottom: 3px black black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.word {  
+    color: blue;
+}
+
+.edit {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-bottom: 75px;
+}
+
+h2 {
+    color: teal;
+}
+
+.contents {
+    margin-bottom: 10px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+.box {
+    height: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Hi+Melody&family=Noto+Sans+KR:wght@700&display=swap');
