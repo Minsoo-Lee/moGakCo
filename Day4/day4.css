@@ -1,0 +1,47 @@
+@font-face{
+    src: url("BMJUA_ttf.ttf");
+    font-family: Jua;
+}
+@font-face {
+    src: url("BMDOHYEON_ttf.ttf");
+    font-family: Dohyeon;
+}
+
+h1 {
+    font-family: Jua;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Jua;
+}
+
+h3 {
+    font-family: Jua;
+    margin-bottom: 10px;
+}
+
+
+
+img {
+    height: 650px;
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.episode {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    width: 1400px;
+    font-family: Dohyeon;
+}
+
+.myHead {
+    width: 1400px;
+}
+
+.contents {
+    margin-top: 10px;
+}
