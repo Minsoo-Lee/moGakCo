@@ -1,0 +1,35 @@
+.photoBook {
+    padding: 15px;
+    box-sizing: border-box;
+    width: 517px;
+    height: 517px;
+    overflow-y: auto;
+}
+
+.title, .photos {
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.photos {
+    height: 300px;
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+p {
+    margin: 10px;
+}
+
+img {
+    height: 100%;
+}

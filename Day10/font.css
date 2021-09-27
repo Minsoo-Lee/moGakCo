@@ -1,0 +1,28 @@
+@font-face {
+    src: url("BMDOHYEON_ttf.ttf");
+    font-family: Dohyeon;
+  }
+
+@font-face {
+    src: url("Gaegu-Regular.ttf");
+    font-family: Gaegu_regular;
+  }
+  
+@font-face {
+    src: url("Gaegu-Bold.ttf");
+    font-family: Gaegu_bold;
+  }
+
+@font-face {
+    src: url("NanumGothicCoding-Bold.ttf");
+    font-family: Nanum_bold;
+  }
+
+@font-face {
+    src: url("NanumGothicCoding-Regular.ttf");
+    font-family: Nanum_regular;
+  }
+@font-face {
+    src: url("GamjaFlower-Regular.ttf");
+    font-family: Gamja;
+  }
