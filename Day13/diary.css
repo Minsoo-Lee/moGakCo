@@ -1,0 +1,103 @@
+.writings {
+    display: flex;
+}
+
+.calender {
+    padding: 5px;
+    display: flex;
+    border: 1px solid lightgrey;
+    margin-bottom: 15px;
+}
+
+.box {
+    height: 440px;
+    overflow: scroll;
+    overflow-x: hidden; 
+}
+
+.today_date {
+    text-align: center;
+    flex: 0.1;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.month_date {
+    font-size: 15px;
+    flex: 0.9;
+    line-height: 20px;
+    vertical-align: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #3395b0;
+}
+
+.date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+}
+
+.diary_contents {
+    border: 0.5px solid lightgrey;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+
+}
+
+.diary_date {
+    font-size: 15px;
+    color: #3395b0;
+    margin-bottom: 20px;
+}
+
+.diary_today {
+    text-align: center;
+}
+
+.scroll-box {
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+
+p {
+    margin: 0px;
+}
+
+button {
+    font-family: Gamja;
+    background-color: white;
+    border: white;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    
+}
+.secret {
+    text-align: center;    
+    background-color: white;
+    border: white;
+    color: white;
+
+}
+
+button:hover {
+    background-color: #3395b0;
+}
+
+#secret-box {
+    display: none;
+}
